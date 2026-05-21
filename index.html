@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hafidz Nur Shafwan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cur"></div>
+    <div id="cur-ring"></div>
+
+    <!-- NAV -->
+    <nav>
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">HNS.</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="mailto:hafidznurshafwan@gmail.com" class="nav-cta"
+          >Get in touch →</a
+        >
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <!-- parallax layer 0: deep grid (slowest) -->
+      <div class="hero-grid parallax-slow"></div>
+      <!-- parallax layer 1: orbs -->
+      <div class="hero-orbs parallax-med">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+      </div>
+      <!-- parallax layer 2: geometric lines -->
+      <div class="hero-lines parallax-med">
+        <svg
+          class="hero-svg"
+          viewBox="0 0 1200 800"
+          preserveAspectRatio="xMidYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- arc rings -->
+          <circle
+            cx="600"
+            cy="900"
+            r="420"
+            fill="none"
+            stroke="rgba(255,255,255,0.04)"
+            stroke-width="1"
+          />
+          <circle
+            cx="600"
+            cy="900"
+            r="560"
+            fill="none"
+            stroke="rgba(255,255,255,0.03)"
+            stroke-width="1"
+          />
+          <circle
+            cx="600"
+            cy="900"
+            r="700"
+            fill="none"
+            stroke="rgba(255,255,255,0.025)"
+            stroke-width="1"
+          />
+          <!-- diagonal accent lines -->
+          <line
+            x1="0"
+            y1="200"
+            x2="400"
+            y2="0"
+            stroke="rgba(110,155,255,0.06)"
+            stroke-width="1"
+          />
+          <line
+            x1="800"
+            y1="800"
+            x2="1200"
+            y2="500"
+            stroke="rgba(110,155,255,0.05)"
+            stroke-width="1"
+          />
+          <!-- corner bracket top-left -->
+          <path
+            d="M60 60 L60 20 L100 20"
+            fill="none"
+            stroke="rgba(255,255,255,0.12)"
+            stroke-width="1"
+          />
+          <!-- corner bracket bottom-right -->
+          <path
+            d="M1140 740 L1140 780 L1100 780"
+            fill="none"
+            stroke="rgba(255,255,255,0.12)"
+            stroke-width="1"
+          />
+          <!-- subtle cross -->
+          <line
+            x1="598"
+            y1="340"
+            x2="602"
+            y2="340"
+            stroke="rgba(255,255,255,0.25)"
+            stroke-width="1"
+          />
+          <line
+            x1="600"
+            y1="338"
+            x2="600"
+            y2="342"
+            stroke="rgba(255,255,255,0.25)"
+            stroke-width="1"
+          />
+        </svg>
+      </div>
+      <!-- noise grain overlay -->
+      <div class="hero-noise"></div>
+      <!-- vignette -->
+      <div class="hero-vignette"></div>
+
+      <!-- content (fastest parallax — scrolls away) -->
+      <div class="hero-content parallax-fast">
+        <p class="hero-eyebrow">AI Engineer &amp; Data Scientist</p>
+        <h1 class="hero-name">Hafidz Nur Shafwan.</h1>
+        <p class="hero-tagline">
+          Building intelligent systems<br />from autonomous driving to apps
+          people love.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="hero-btn primary"
+            >See my work <span class="arr">›</span></a
+          >
+          <a href="#contact" class="hero-btn secondary"
+            >Get in touch <span class="arr">›</span></a
+          >
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-wrap">
+        <div class="rv">
+          <span class="chip">About</span>
+          <h2 class="sec-headline">Where data<br />meets craft.</h2>
+          <p class="sec-sub">
+            Informatika student at Universitas Surabaya, specialising in Data
+            Science and AI — with a proven track record of shipping real
+            products.
+          </p>
+        </div>
+        <div class="about-grid rv">
+          <div class="about-text">
+            <p>
+              I'm a computer science student at
+              <strong>Universitas Surabaya</strong> with a focus on
+              <strong>Data Science and Artificial Intelligence</strong>. I work
+              at the intersection of research and real-world engineering.
+            </p>
+            <p>
+              Beyond AI, I build <strong>native and hybrid mobile apps</strong>,
+              web platforms, and even games — because I believe the best
+              engineers can carry an idea from concept to shipped product.
+            </p>
+            <p>
+              I'm actively looking for
+              <strong>internship opportunities</strong> where I can bring my
+              combination of AI expertise and full-stack development skills to a
+              team that cares about craft.
+            </p>
+          </div>
+          <div class="about-avatar-card">
+            <div class="ava">HNS</div>
+            <p class="ava-name">Hafidz Nur Shafwan</p>
+            <p class="ava-role">Universitas Surabaya · Informatika</p>
+            <div class="ava-tags">
+              <span class="atag">Data Science</span>
+              <span class="atag">AI / ML</span>
+              <span class="atag">Mobile Dev</span>
+              <span class="atag">Web Dev</span>
+              <span class="atag">Game Dev</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-wrap">
+        <div class="rv">
+          <span class="chip" style="color: #6e9bff">Skills</span>
+          <h2 class="sec-headline light">Six domains.<br />One engineer.</h2>
+          <p class="sec-sub light">
+            A breadth of technical skill built through real projects — not just
+            coursework.
+          </p>
+        </div>
+        <div class="skills-grid rv">
+          <div class="sk-card">
+            <span class="sk-icon">🤖</span>
+            <div class="sk-cat">AI / ML</div>
+            <div class="sk-title">Deep Learning &amp; Computer Vision</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Python</span
+              ><span class="sk-pill">YOLOv8</span
+              ><span class="sk-pill">TensorFlow</span
+              ><span class="sk-pill">PyTorch</span
+              ><span class="sk-pill">OpenCV</span>
+            </div>
+          </div>
+          <div class="sk-card">
+            <span class="sk-icon">📊</span>
+            <div class="sk-cat">Data Science</div>
+            <div class="sk-title">Analytics &amp; Visualisation</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Pandas</span
+              ><span class="sk-pill">NumPy</span
+              ><span class="sk-pill">Scikit-learn</span
+              ><span class="sk-pill">SQL</span
+              ><span class="sk-pill">Matplotlib</span>
+            </div>
+          </div>
+          <div class="sk-card">
+            <span class="sk-icon">📱</span>
+            <div class="sk-cat">Mobile</div>
+            <div class="sk-title">Native &amp; Hybrid Apps</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Flutter</span
+              ><span class="sk-pill">Dart</span
+              ><span class="sk-pill">React Native</span
+              ><span class="sk-pill">Firebase</span>
+            </div>
+          </div>
+          <div class="sk-card">
+            <span class="sk-icon">🌐</span>
+            <div class="sk-cat">Web</div>
+            <div class="sk-title">Frontend &amp; Backend</div>
+            <div class="sk-pills">
+              <span class="sk-pill">React</span
+              ><span class="sk-pill">Laravel</span
+              ><span class="sk-pill">Node.js</span
+              ><span class="sk-pill">MySQL</span>
+            </div>
+          </div>
+          <div class="sk-card">
+            <span class="sk-icon">🎮</span>
+            <div class="sk-cat">Game & Simulation</div>
+            <div class="sk-title">Game Dev &amp; Sim Environments</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Unity</span><span class="sk-pill">C#</span
+              ><span class="sk-pill">Rule-based AI</span
+              ><span class="sk-pill">Physics</span>
+            </div>
+          </div>
+          <div class="sk-card">
+            <span class="sk-icon">🛠</span>
+            <div class="sk-cat">Tools</div>
+            <div class="sk-title">DevOps &amp; Workflow</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Git</span><span class="sk-pill">Docker</span
+              ><span class="sk-pill">Linux</span
+              ><span class="sk-pill">Figma</span
+              ><span class="sk-pill">Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-wrap">
+        <div class="proj-header-row rv">
+          <div>
+            <span class="chip">Work</span>
+            <h2 class="sec-headline">Selected projects.</h2>
+          </div>
+          <p
+            class="sec-sub"
+            style="margin: 0; max-width: 280px; text-align: right"
+          >
+            2023 — 2025
+          </p>
+        </div>
+
+        <!-- Featured -->
+        <div class="proj-featured rv">
+          <div class="pf-visual">
+            <div class="ad-scene">
+              <div class="ad-grid"></div>
+              <div class="ad-radar">
+                <div class="ad-radar-sweep"></div>
+                <div class="ad-radar-ring r1"></div>
+                <div class="ad-radar-ring r2"></div>
+                <div class="ad-radar-ring r3"></div>
+              </div>
+              <div class="ad-ego">
+                <div class="ad-ego-beam"></div>
+                <div class="ad-ego-car"></div>
+              </div>
+              <div class="ad-obj obj1"><span class="ad-label">car</span></div>
+              <div class="ad-obj obj2"><span class="ad-label">ped</span></div>
+              <div class="ad-obj obj3"><span class="ad-label">car</span></div>
+              <div class="ad-obj obj4"><span class="ad-label">sign</span></div>
+              <svg
+                class="ad-svg"
+                viewBox="0 0 320 280"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M160 210 Q157 160 159 110 Q160 65 160 30"
+                  stroke="rgba(99,102,241,0.4)"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke-dasharray="5 4"
+                />
+                <line
+                  x1="88"
+                  y1="118"
+                  x2="88"
+                  y2="90"
+                  stroke="rgba(34,211,160,0.55)"
+                  stroke-width="1.5"
+                  marker-end="url(#arr)"
+                />
+                <line
+                  x1="232"
+                  y1="100"
+                  x2="232"
+                  y2="74"
+                  stroke="rgba(34,211,160,0.55)"
+                  stroke-width="1.5"
+                  marker-end="url(#arr)"
+                />
+                <defs>
+                  <marker
+                    id="arr"
+                    markerWidth="4"
+                    markerHeight="4"
+                    refX="2"
+                    refY="2"
+                    orient="auto"
+                  >
+                    <path d="M0,0 L0,4 L4,2 z" fill="rgba(34,211,160,0.55)" />
+                  </marker>
+                </defs>
+              </svg>
+              <div class="ad-hud ad-hud-tl">
+                <div class="ad-hud-row">YOLOv8s</div>
+                <div class="ad-hud-row c-green">● ACTIVE</div>
+              </div>
+              <div class="ad-hud ad-hud-br">
+                <div class="ad-hud-row">
+                  FPS <span class="c-green">60</span>
+                </div>
+                <div class="ad-hud-row">OBJ <span class="c-green">4</span></div>
+              </div>
+            </div>
+            <div class="pf-label">Featured · AI / Computer Vision</div>
+          </div>
+          <div class="pf-body">
+            <div>
+              <p class="pf-chip">Featured · AI / Computer Vision</p>
+              <h3 class="pf-title">Autonomous Driving Simulation System</h3>
+              <p class="pf-desc">
+                YOLOv8s-based autonomous vehicle system with rule-based control
+                and intelligent steering in a Unity simulation environment.
+                Combines real-time object detection with adaptive vehicle
+                control logic.
+              </p>
+            </div>
+            <div class="pf-footer">
+              <div class="pf-stack">
+                <span class="pf-badge">Python</span
+                ><span class="pf-badge">YOLOv8</span
+                ><span class="pf-badge">Unity</span
+                ><span class="pf-badge">C#</span
+                ><span class="pf-badge">OpenCV</span>
+              </div>
+              <a href="#" class="pf-link">View project ›</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="proj-cards rv">
+          <div class="pcard">
+            <div class="pc-visual pc-v1"><div class="pv-inner">📍</div></div>
+            <div class="pc-body">
+              <div class="pc-chip">Mobile App</div>
+              <h3 class="pc-title">Viral Spot Finder Surabaya</h3>
+              <p class="pc-desc">
+                Mobile app to discover trending places in Surabaya with
+                geolocation, community reviews, and personal recommendations.
+              </p>
+              <div class="pc-footer">
+                <div class="pc-stack">
+                  <span class="pc-badge">Flutter</span
+                  ><span class="pc-badge">Firebase</span
+                  ><span class="pc-badge">Maps API</span>
+                </div>
+                <a href="#" class="pc-link">View ›</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pcard">
+            <div class="pc-visual pc-v2"><div class="pv-inner">🎬</div></div>
+            <div class="pc-body">
+              <div class="pc-chip">Web App</div>
+              <h3 class="pc-title">CineStream — Film Platform</h3>
+              <p class="pc-desc">
+                Netflix-inspired streaming platform with user auth, film
+                catalogue, and video playback built on a full-stack
+                architecture.
+              </p>
+              <div class="pc-footer">
+                <div class="pc-stack">
+                  <span class="pc-badge">React</span
+                  ><span class="pc-badge">Laravel</span
+                  ><span class="pc-badge">MySQL</span>
+                </div>
+                <a href="#" class="pc-link">View ›</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pcard">
+            <div class="pc-visual pc-v3"><div class="pv-inner">🧩</div></div>
+            <div class="pc-body">
+              <div class="pc-chip">Mobile · Android</div>
+              <h3 class="pc-title">Image Puzzle Game</h3>
+              <p class="pc-desc">
+                Android puzzle game built with Flutter featuring tile-sliding
+                mechanics, difficulty levels, and a timer challenge mode.
+              </p>
+              <div class="pc-footer">
+                <div class="pc-stack">
+                  <span class="pc-badge">Flutter</span
+                  ><span class="pc-badge">Dart</span
+                  ><span class="pc-badge">Android</span>
+                </div>
+                <a href="#" class="pc-link">View ›</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pcard">
+            <div class="pc-visual pc-v4"><div class="pv-inner">🏎</div></div>
+            <div class="pc-body">
+              <div class="pc-chip">Game · Unity</div>
+              <h3 class="pc-title">Racing Game</h3>
+              <p class="pc-desc">
+                3D racing game with realistic vehicle physics, multiple tracks,
+                and a competitive lap-time system.
+              </p>
+              <div class="pc-footer">
+                <div class="pc-stack">
+                  <span class="pc-badge">Unity</span
+                  ><span class="pc-badge">C#</span
+                  ><span class="pc-badge">Physics</span>
+                </div>
+                <a href="#" class="pc-link">View ›</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pcard">
+            <div class="pc-visual pc-v5"><div class="pv-inner">👾</div></div>
+            <div class="pc-body">
+              <div class="pc-chip">Game · Unity</div>
+              <h3 class="pc-title">Alien Shooter</h3>
+              <p class="pc-desc">
+                Arcade shooter with wave-based enemy spawning, a power-up
+                system, and a local leaderboard.
+              </p>
+              <div class="pc-footer">
+                <div class="pc-stack">
+                  <span class="pc-badge">Unity</span
+                  ><span class="pc-badge">C#</span
+                  ><span class="pc-badge">2D / 3D</span>
+                </div>
+                <a href="#" class="pc-link">View ›</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-wrap">
+        <div class="rv">
+          <h2 class="contact-headline">Let's build<br />something great.</h2>
+          <p class="contact-sub">
+            Open to internships, freelance, and collaboration.
+          </p>
+          <div class="contact-ctas">
+            <a href="mailto:hafidznurshafwan@gmail.com" class="contact-btn-fill"
+              >Send an email</a
+            >
+            <a
+              href="https://linkedin.com/in/hafidznurshafwan"
+              target="_blank"
+              class="contact-btn-ghost"
+              >LinkedIn ›</a
+            >
+          </div>
+          <div class="contact-links-row">
+            <a href="mailto:hafidznurshafwan@gmail.com" class="cl">
+              <div class="cl-label">Email</div>
+              <div class="cl-val">hafidznurshafwan@gmail.com</div>
+            </a>
+            <a
+              href="https://linkedin.com/in/hafidznurshafwan"
+              target="_blank"
+              class="cl"
+            >
+              <div class="cl-label">LinkedIn</div>
+              <div class="cl-val">in/hafidznurshafwan</div>
+            </a>
+            <a
+              href="https://github.com/hafidznurshafwan"
+              target="_blank"
+              class="cl"
+            >
+              <div class="cl-label">GitHub</div>
+              <div class="cl-val">hafidznurshafwan</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-copy"
+          >Copyright © 2025 Hafidz Nur Shafwan. All rights reserved.</span
+        >
+        <span class="footer-right">Surabaya, Indonesia</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
